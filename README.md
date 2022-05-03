@@ -5,3 +5,4 @@ The **Beautiful Todo App** is the future of the full-fledged app. The idea behin
 ### List of technologies used in the project:
 
 - **Vue 3**
+- **Prettier**
