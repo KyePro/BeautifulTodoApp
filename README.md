@@ -1,19 +1,7 @@
-# vue3-todo-app
+# Beautiful Todo App
 
-## Project setup
-```
-npm install
-```
+The **Beautiful Todo App** is the future of the full-fledged app. The idea behind this project is that it starts from scratch, just Vue. In the process of development, it will be supplemented with all possible technologies and approaches to grow into a good working project.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### List of technologies used in the project:
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- **Vue 3**
