@@ -1,0 +1,20 @@
+@use '../abstracts';
+
+.button {
+	padding: 16px 8px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: 0.3s ease-in;
+	font-family: abstracts.$FONT-MAIN;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: abstracts.$COLOR-DEFAULT_WHITE;
+	background: abstracts.$COLOR-PURPLE;
+
+	&:active {
+		background: adjust-hue(abstracts.$COLOR-PURPLE, 20);
+	}
+}

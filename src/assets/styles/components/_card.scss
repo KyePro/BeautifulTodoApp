@@ -1,0 +1,35 @@
+@use '../abstracts';
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 12px;
+	padding: 15px;
+	background: abstracts.$COLOR-DEFAULT_WHITE;
+	border-radius: 5px;
+	box-shadow: abstracts.$SHADOW-LIGHT;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&__title {
+		margin-bottom: 12px;
+		font-family: abstracts.$FONT-MAIN;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: abstracts.$COLOR-CARD_TITLE;
+	}
+
+	&__desc {
+		font-family: abstracts.$FONT-MAIN;
+		font-style: italic;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 14px;
+		color: abstracts.$COLOR-CARD_DESC;
+	}
+}

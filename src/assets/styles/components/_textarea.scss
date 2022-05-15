@@ -1,0 +1,14 @@
+@use '../abstracts';
+
+.textarea {
+	padding: 16px 8px;
+	border: 1px solid abstracts.$COLOR-INPUT_BORDER;
+	resize: none;
+	font-family: abstracts.$FONT-MAIN;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: abstracts.$COLOR-GRAY_DARK;
+	background: abstracts.$COLOR-DEFAULT_WHITE;
+}

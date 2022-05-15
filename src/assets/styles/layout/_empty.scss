@@ -1,0 +1,30 @@
+@use '../abstracts';
+
+.empty {
+	margin-bottom: 20px;
+
+	&__img {
+		margin: 0 auto 19px;
+	}
+
+	&__title {
+		margin-bottom: 11px;
+		font-family: abstracts.$FONT-MAIN;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 26px;
+		color: #3a3a3a;
+		text-align: center;
+	}
+
+	&__desc {
+		font-family: abstracts.$FONT-MAIN;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 13px;
+		text-align: center;
+		color: #3a3a3a;
+	}
+}
