@@ -1,8 +1,30 @@
 # Beautiful Todo App
 
-The **Beautiful Todo App** is the future of the full-fledged app. The idea behind this project is that it starts from scratch, just Vue. In the process of development, it will be supplemented with all possible technologies and approaches to grow into a good working project.
+##### Technologies that are used:
 
-### List of technologies used in the project:
++ Vue 3
++ SCSS
++ Mobile-first
++ Plugins
+    + Vuelidate
+    + Vuex
 
-- **Vue 3**
-- **Prettier**
+#### Npm commands:
+
+##### Project setup
+
+```
+npm install
+```
+
+##### Compiles and minifies for production
+
+```
+npm run serve
+```
+
+##### Compiles and minifies for production
+
+```
+npm run build
+```
